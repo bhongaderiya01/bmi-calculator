@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmiCalculator</title>
+    <link rel="shortcut icon" href="icons/download.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        #div{
+            border: 1px solid black;
+            display: inline-block;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            padding: 20px;
+            background-color:antiquewhite;
+            
+        }
+        #heading3{
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+
+        }
+        #paragraph1{
+            font-family: 'Poppins', sans-serif;
+        }
+        .height{
+            font-family: 'Poppins', sans-serif;
+        }
+        .weight{
+            font-family: 'Poppins', sans-serif;
+        }
+        .button{
+            background-color: green;
+            color: white;
+            margin-top: 2px;
+        }
+        .button:hover{
+            color: yellows;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div">
+        <h3 id="heading3">BMI Calculator</h3>
+        <p id="paragraph1">Enter the height and weight</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="" class="height" ><strong>height</strong></label></td>
+                    <td><input type="number" placeholder="Enter your height"></td>
+                </tr>
+                <tr>
+                    <td><label for="" class="weight"><strong>weight</strong></label></td>
+                    <td><input type="number" placeholder="Enter your weight"></td>
+                </tr>
+                <tr>
+                    <td><button class="button">Calculate BMI</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><p>Your BMI:</p></td>
+                    <td><input type="text"></td>
+                </tr>
+                
+            </tbody>
+            
+        </table>
+    </div>
+    
+    
+    
+</body>
+</html>
